@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/L1_MasterPage/1-2master檔.Master" AutoEventWireup="true" CodeBehind="1_10巢狀Master大腸包小腸.master.cs" Inherits="_2021_12_27_webformV2.L1_MasterPage._1_10巢狀Master大腸包小腸" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    巢狀MasterPage放的1
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
+    巢狀MasterPage放的2
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    巢狀MasterPage放的3
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    巢狀MasterPage放的4
+</asp:Content>

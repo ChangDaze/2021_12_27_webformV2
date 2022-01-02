@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="範例A" title="範例A"  description="範例A的描述">
+    <siteMapNode url="範例A-1" title="範例A-1(子節點)"  description="範例A-1(子節點)的描述" />
+    <siteMapNode url="範例A-2" title="範例A-2(子節點)"  description="範例A-2(子節點)的描述" />
+  </siteMapNode>
+</siteMap>

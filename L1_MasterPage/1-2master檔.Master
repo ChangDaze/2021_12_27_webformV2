@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="1-2master檔.master.cs" Inherits="_2021_12_27_webformV2.L1_MasterPage._1_2master檔" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table border="0" cellpadding="0" cellspacing="0" style="width:100%;height:100%">
+            <tr>
+                <td colspan="2" style="height:200px">標題 &amp; Title:<br>
+                    <strong>&nbsp; &nbsp;
+                        <span style="font-size:16pt; color:#009900">MIS2000 Lab.股份有限公司的上方網頁----ContentPlaceHolder3<br></span>
+                        <asp:TextBox ID="TextBox1" runat="server" Text="您好，請輸入"></asp:TextBox>
+                    </strong><hr />
+                    <marquee><a href="https://www.google.com.tw/?hl=zh_TW"></a>跑馬燈測試</marquee>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server"></asp:ContentPlaceHolder>
+                    <hr />
+                </td>                
+            </tr>
+            <tr>
+                <td style="width:200px">部門分類----ContentPlaceHolder2<br>
+                    &nbsp; ex:SWC 軟體中心<br>
+                    HWC 硬體中心<br>
+                    CMC客戶管理中心<br>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+                <td>
+                <td>&nbsp;Web的主要內容頁面----ContentPlaceHolder1<br>
+                    <hr>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </td>
+        </table>
+    </form>
+</body>
+</html>
